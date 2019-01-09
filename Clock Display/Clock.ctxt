@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Clock
+comment0.text=\r\n\ Creates\ an\ object\ of\ the\ clockDisplay\ class\ and\ outputs\ the\ clock\ to\ the\ terminal\ window.\r\n\ \r\n\ @author\ Kevin\ Qin\r\n\ @version\ 1.0\ 2015-02-24\r\n
+comment1.params=minuteLimit\ hourLimit
+comment1.target=Clock(int,\ int)
+comment1.text=\r\n\ Construtor\ for\ clock\ class\ that\ constructs\ a\ stopwatch.\ \r\n\ Once\ created,\ this\ stopwatch\ will\ start\ counting\r\n\ \r\n\ @param\ minuteLimit\ the\ limit\ of\ this\ clock's\ number\ of\ minutes.\ Must\ be\ a\ positive\ integer\r\n\ @param\ hourLimit\ the\ limit\ of\ this\ clock's\ number\ of\ hours.\ Must\ be\ a\ positive\ integer\r\n
+comment2.params=minuteLimit\ hourLimit\ minuteValue\ hourValue
+comment2.target=Clock(int,\ int,\ int,\ int)
+comment2.text=\r\n\ Construtor\ for\ clock\ class\ that\ constructs\ a\ clock\ that\ shows\ the\ actual\ time.\r\n\ Once\ created,\ clock\ will\ start\ counting\r\n\ \r\n\ @param\ minuteLimit\ the\ limit\ of\ this\ clock's\ number\ of\ minutes.\ Must\ be\ a\ positive\ integer\r\n\ @param\ hourLimit\ the\ limit\ of\ this\ clock's\ number\ of\ hours.\ Must\ be\ a\ positive\ integer\r\n\ @param\ minuteValue\ this\ clock's\ current\ minute\ value.\ Must\ be\ a\ positive\ number\ and\ be\ less\ than\ the\ limit\r\n\ @param\ minuteValue\ this\ clock's\ current\ hour\ value.\ Must\ be\ a\ positive\ number\ and\ be\ less\ than\ the\ limit\r\n
+comment3.params=
+comment3.target=void\ countSeconds()
+comment4.params=argument
+comment4.target=void\ main(int[])
+comment4.text=\r\n\ creates\ an\ object\ of\ the\ clock\ class\r\n\ \r\n\ @param\ argument\ <ol>\ Element<li>the\ type\ of\ clock\ wanted.\ Regular\ clock\ \=\ 1.\ Stopwatch\ \=\ 2.</li>\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ <li>the\ limit\ this\ clock's\ minutes.\ Must\ be\ a\ positive\ integer</li>\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ <li>the\ limit\ this\ clock's\ hours.\ Must\ be\ a\ positive\ integer\ </li>\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ <li>the\ value\ of\ this\ clock's\ minutes.\ Must\ be\ a\ positive\ number\ and\ be\ less\ than\ the\ limit</li>\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ <li>the\ value\ of\ this\ clock's\ hours.\ Must\ be\ a\ positive\ number\ and\ be\ less\ than\ the\ limit</li>\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ </ol>\r\n
+numComments=5

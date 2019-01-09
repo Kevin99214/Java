@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.params=limit\ value
+comment0.target=NumberDisplay(int,\ int)
+comment0.text=\r\n\ Constructor\ for\ NumberDisplay\r\n\ \r\n\ @param\ limit\ the\ limit\ of\ this\ number.\ Must\ be\ greater\ than\ 1.\r\n\ @param\ value\ the\ value\ of\ this\ number.\ Must\ not\ be\ negative.\r\n
+comment1.params=
+comment1.target=java.lang.String\ getDisplayValue()
+comment1.text=\r\n\ returns\ the\ value\ this\ number\ would\ display\r\n\ \r\n\ @reutrn\ the\ value\ this\ number\ would\ display\r\n
+comment2.params=
+comment2.target=int\ getLimit()
+comment2.text=\r\n\ returns\ the\ limit\ of\ this\ number\r\n\ \r\n\ @return\ the\ value\ of\ this\ number's\ limit\r\n
+comment3.params=
+comment3.target=int\ getValue()
+comment3.text=\r\n\ returns\ the\ value\ of\ this\ number\r\n\ \r\n\ @return\ the\ value\ of\ this\ number's\ value\r\n
+comment4.params=newLimit
+comment4.target=void\ setLimit(int)
+comment4.text=\r\n\ sets\ the\ limit\ of\ this\ number\ to\ a\ new\ limit\r\n\ \r\n\ @param\ newLimit\ the\ new\ value\ of\ this\ number.\ Must\ be\ positive\ and\ must\ be\ greater\ than\ one\r\n
+comment5.params=newValue
+comment5.target=void\ setValue(int)
+comment5.text=\r\n\ sets\ the\ value\ of\ this\ number\ to\ a\ new\ value\r\n\ \r\n\ @param\ newValue\ the\ new\ value\ of\ this\ number.\ Must\ be\ positive\ and\ not\ be\ above\ the\ limit\r\n
+comment6.params=
+comment6.target=void\ increment()
+comment6.text=\r\n\ increases\ the\ value\ of\ this\ number\ by\ 1\ everytime\r\n
+numComments=7
