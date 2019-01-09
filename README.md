@@ -1,4 +1,2 @@
-# GameOfLife
-Conway's Game of Life
-Created using Java
-For BlueJ IDE
+# Java
+Small Projects created in Java using BlueJ IDE
